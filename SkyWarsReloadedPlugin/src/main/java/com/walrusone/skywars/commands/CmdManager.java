@@ -47,6 +47,7 @@ public class CmdManager implements CommandExecutor {
 		cmds.add(new SetGlassCmd());
 		cmds.add(new SetEffectCmd());
 		cmds.add(new SetProjEffectCmd());
+		cmds.add(new VIPJoinGameCmd());
 	}
 
 	public boolean onCommand(CommandSender s, Command command, String label, String[] args) { 
